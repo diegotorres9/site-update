@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -60,7 +61,32 @@ main {
 
 header {
   width: 100%;
-  background-color: red;
+  background-color: #FF4242;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header svg {
+  margin: 1rem 2rem;
+}
+header svg path:nth-child(2) {
+  fill: #FF4242;
+}
+header svg g {
+  fill: #23A9A9;
+  stroke: #F7F7FF;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin: 1rem 2rem;
+}
+header ul li a {
+  text-decoration: none;
+  color: #F7F7FF;
+  font: 700 36px "Rubik", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

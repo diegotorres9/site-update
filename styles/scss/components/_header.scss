@@ -1,4 +1,29 @@
 header {
     width: 100%;
-    background-color: red;
+    background-color: $primaryColor;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    svg {
+        margin: 1rem 2rem;
+        path:nth-child(2) {
+            fill: $primaryColor;
+        }
+       g {
+           fill: $secondaryColor;
+           stroke: $white;
+       }
+    }
+    ul {
+        display: flex;
+        li {
+            margin: 1rem 2rem;
+            a {
+                text-decoration: none;
+                color: $white;
+                font: $rubikBold;
+            }
+        }
+    }
 }
