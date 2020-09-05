@@ -1,0 +1,13 @@
+// Set Body to Flex to place header and footer at top and bottom of site regardless of the height of the content
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header, footer {
+    flex: none;
+}
+main {
+    flex: 1 0 auto;
+    width: 100%;
+}
