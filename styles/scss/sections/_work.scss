@@ -93,3 +93,68 @@
         }
     }
 }
+
+@media screen and (max-width: 68.75em) {
+    .work {
+        .work-craft-brewery {
+            .craft-brewery-content {
+                h3, p, a {
+                    margin: 0.5rem 1.5rem;
+                }
+            }
+        }
+        .work-trestle {
+            .trestle-content {
+                h3, p, a {
+                    margin: 0.5rem 1.5rem;
+                }
+            }
+        }
+        .work-happy-sunshine {
+            .happy-sunshine-content {
+                h3, p, a {
+                    margin: 0.5rem 1.5rem;
+                }
+            }
+        }
+        .work-altJ {
+            .altJ-content {
+                h3, p, a {
+                    margin: 0.5rem 1.5rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 43.125em) {
+    .work {
+        .work-craft-brewery {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .work-trestle {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            img {
+                grid-row: 1;
+                grid-column: 1;
+            }
+        }
+        .work-happy-sunshine {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .work-altJ {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            img {
+                grid-row: 1;
+                grid-column: 1;
+            }
+        }
+    }
+}

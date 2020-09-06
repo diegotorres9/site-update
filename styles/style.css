@@ -66,6 +66,8 @@ html {
 img {
   max-width: 100%;
   box-shadow: 0px 0px 40px -12px rgba(0, 0, 0, 0.75);
+  border-radius: 100%;
+  max-height: 500px;
 }
 
 header {
@@ -109,6 +111,11 @@ footer i {
   margin: 1rem;
   color: #F7F7FF;
   font-size: 36px;
+  transition: text-shadow 0.5s ease-in, color 0.5s ease-in;
+  text-shadow: 0 0 1px #F7F7FF;
+}
+footer i:hover {
+  color: #23A9A9;
 }
 
 .view-site-button, .learn-more-button {
@@ -135,7 +142,7 @@ footer i {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #FF4242;
+  background-color: #23A9A9;
   transform-origin: bottom;
   transition: height 0.5s ease-in;
   z-index: -1;
@@ -255,6 +262,50 @@ footer i {
   margin: 1rem 0;
 }
 
+@media screen and (max-width: 68.75em) {
+  .work .work-craft-brewery .craft-brewery-content h3, .work .work-craft-brewery .craft-brewery-content p, .work .work-craft-brewery .craft-brewery-content a {
+    margin: 0.5rem 1.5rem;
+  }
+  .work .work-trestle .trestle-content h3, .work .work-trestle .trestle-content p, .work .work-trestle .trestle-content a {
+    margin: 0.5rem 1.5rem;
+  }
+  .work .work-happy-sunshine .happy-sunshine-content h3, .work .work-happy-sunshine .happy-sunshine-content p, .work .work-happy-sunshine .happy-sunshine-content a {
+    margin: 0.5rem 1.5rem;
+  }
+  .work .work-altJ .altJ-content h3, .work .work-altJ .altJ-content p, .work .work-altJ .altJ-content a {
+    margin: 0.5rem 1.5rem;
+  }
+}
+@media screen and (max-width: 43.125em) {
+  .work .work-craft-brewery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .work .work-trestle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .work .work-trestle img {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .work .work-happy-sunshine {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .work .work-altJ {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .work .work-altJ img {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
 .about {
   margin: 2rem 2rem;
 }
@@ -270,11 +321,26 @@ footer i {
   align-self: center;
 }
 .about .about-content img {
-  border-radius: 100%;
-  max-height: 500px;
   grid-row: 1;
   grid-column: 1;
   justify-self: center;
+}
+
+@media screen and (max-width: 68.75em) {
+  .about .about-content p {
+    margin: 0.5rem 1.5rem;
+  }
+}
+@media screen and (max-width: 43.125em) {
+  .about .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .about .about-content img {
+    grid-row: 2;
+    grid-column: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
