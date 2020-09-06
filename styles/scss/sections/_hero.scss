@@ -1,0 +1,14 @@
+.hero {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 2rem;
+    h1 {
+        font: $rubikBold;
+        font-size: 48px;
+    }
+    p {
+        font: $rubik;    
+    }
+}

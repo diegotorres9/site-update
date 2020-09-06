@@ -1,0 +1,95 @@
+.work {
+    margin: 2rem 2rem;
+    h2 {
+        font: $rubikBold;
+        grid-column: span 2;
+    }
+    h3 {
+        font: $rubik;
+        margin: 1rem 0; 
+    }
+    p {
+        font: $rubikLight;
+        margin: 1rem 0;
+    }
+    .work-craft-brewery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 0;
+        img {
+            grid-row: 1;
+            grid-column: 1;
+            justify-self: center;
+        }
+        .craft-brewery-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3, p, a {
+                grid-row: 1;
+                grid-column: 2;
+                margin: 1rem 0;
+            }
+        }
+    }
+    .work-trestle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 0;
+        img {
+            grid-row:1;
+            grid-column: 2;
+            justify-self: center;
+        }
+        .trestle-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3, p, a {
+                grid-row: 1;
+                grid-column: 1;
+                margin: 1rem 0;
+            }
+        }
+    }
+    .work-happy-sunshine {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 0;
+        img {
+            grid-row:1;
+            grid-column: 1;
+            justify-self: center;
+        }
+        .happy-sunshine-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3, p, a {
+                grid-row: 1;
+                grid-column: 2;
+                margin: 1rem 0;
+            }
+        }
+    }
+    .work-altJ {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 0;
+        img {
+            grid-row:1;
+            grid-column: 2;
+            justify-self: center;
+        }
+        .altJ-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3, p, a {
+                grid-row: 1;
+                grid-column: 1;
+                margin: 1rem 0;
+            }
+        }
+    }
+}

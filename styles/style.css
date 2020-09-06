@@ -59,6 +59,15 @@ main {
   width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  box-shadow: 0px 0px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
 header {
   width: 100%;
   background-color: #FF4242;
@@ -66,9 +75,10 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 3px 18px -8px rgba(0, 0, 0, 0.75);
 }
 header svg {
-  margin: 1rem 2rem;
+  margin: 1rem;
 }
 header svg path:nth-child(2) {
   fill: #FF4242;
@@ -86,7 +96,185 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: #F7F7FF;
+  font: 400 18px "Rubik", sans-serif;
+}
+
+footer {
+  background-color: #FF4242;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+footer i {
+  margin: 1rem;
+  color: #F7F7FF;
+  font-size: 36px;
+}
+
+.view-site-button, .learn-more-button {
+  display: inline-block;
+  color: #000000;
+  font: 300 16px "Rubik", sans-serif;
+  text-decoration: none;
+  background: none;
+  border-bottom: 5px solid #FF4242;
+  transition: color 0.5s linear;
+  position: relative;
+  padding: 10px 20px;
+  margin: 1rem 1rem;
+  width: 125px;
+  text-align: center;
+}
+.view-site-button:hover, .learn-more-button:hover {
+  color: #F7F7FF;
+}
+.view-site-button::after, .learn-more-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #FF4242;
+  transform-origin: bottom;
+  transition: height 0.5s ease-in;
+  z-index: -1;
+}
+.view-site-button:hover::after, .learn-more-button:hover::after {
+  height: 100%;
+}
+
+.hero {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 2rem;
+}
+.hero h1 {
   font: 700 36px "Rubik", sans-serif;
+  font-size: 48px;
+}
+.hero p {
+  font: 400 18px "Rubik", sans-serif;
+}
+
+.work {
+  margin: 2rem 2rem;
+}
+.work h2 {
+  font: 700 36px "Rubik", sans-serif;
+  grid-column: span 2;
+}
+.work h3 {
+  font: 400 18px "Rubik", sans-serif;
+  margin: 1rem 0;
+}
+.work p {
+  font: 300 16px "Rubik", sans-serif;
+  margin: 1rem 0;
+}
+.work .work-craft-brewery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+}
+.work .work-craft-brewery img {
+  grid-row: 1;
+  grid-column: 1;
+  justify-self: center;
+}
+.work .work-craft-brewery .craft-brewery-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work .work-craft-brewery .craft-brewery-content h3, .work .work-craft-brewery .craft-brewery-content p, .work .work-craft-brewery .craft-brewery-content a {
+  grid-row: 1;
+  grid-column: 2;
+  margin: 1rem 0;
+}
+.work .work-trestle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+}
+.work .work-trestle img {
+  grid-row: 1;
+  grid-column: 2;
+  justify-self: center;
+}
+.work .work-trestle .trestle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work .work-trestle .trestle-content h3, .work .work-trestle .trestle-content p, .work .work-trestle .trestle-content a {
+  grid-row: 1;
+  grid-column: 1;
+  margin: 1rem 0;
+}
+.work .work-happy-sunshine {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+}
+.work .work-happy-sunshine img {
+  grid-row: 1;
+  grid-column: 1;
+  justify-self: center;
+}
+.work .work-happy-sunshine .happy-sunshine-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work .work-happy-sunshine .happy-sunshine-content h3, .work .work-happy-sunshine .happy-sunshine-content p, .work .work-happy-sunshine .happy-sunshine-content a {
+  grid-row: 1;
+  grid-column: 2;
+  margin: 1rem 0;
+}
+.work .work-altJ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+}
+.work .work-altJ img {
+  grid-row: 1;
+  grid-column: 2;
+  justify-self: center;
+}
+.work .work-altJ .altJ-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work .work-altJ .altJ-content h3, .work .work-altJ .altJ-content p, .work .work-altJ .altJ-content a {
+  grid-row: 1;
+  grid-column: 1;
+  margin: 1rem 0;
+}
+
+.about {
+  margin: 2rem 2rem;
+}
+.about h2 {
+  font: 700 36px "Rubik", sans-serif;
+}
+.about .about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about .about-content p {
+  font: 300 16px "Rubik", sans-serif;
+  align-self: center;
+}
+.about .about-content img {
+  border-radius: 100%;
+  max-height: 500px;
+  grid-row: 1;
+  grid-column: 1;
+  justify-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */

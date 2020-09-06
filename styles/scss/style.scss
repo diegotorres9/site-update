@@ -2,8 +2,16 @@
 @import "base/reset";
 @import "base/layout";
 
+
 // scss/variables
 @import "variables";
 
 // scss/components
 @import "components/header";
+@import "components/footer";
+@import "components/link";
+
+//scss/sections
+@import "sections/hero";
+@import "sections/work";
+@import "sections/about";

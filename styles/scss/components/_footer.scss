@@ -1,0 +1,11 @@
+footer {
+    background-color: $primaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    i {
+        margin: 1rem;
+        color: $white;
+        font-size: 36px;
+    }
+}
