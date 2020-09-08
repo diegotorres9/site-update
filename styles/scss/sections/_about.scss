@@ -16,6 +16,10 @@
             grid-column: 1;
             justify-self: center;
         }
+        .email-link {
+            font: $rubik;
+            color: $secondaryColor;
+        }
     }
 }
 @media screen and (max-width: 68.75em) {
@@ -38,7 +42,7 @@
                 grid-column: 1;
             }
             p {
-                margin: 0rem 1.5rem;
+                margin: 1rem 1.5rem;
                 // align-self: flex-start;
             }
         }

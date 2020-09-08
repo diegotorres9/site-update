@@ -134,7 +134,7 @@ footer i:hover {
   transition: color 0.5s linear;
   position: relative;
   padding: 10px 20px;
-  margin: 1rem 1rem;
+  margin: 1rem 0;
   width: 125px;
   text-align: center;
 }
@@ -167,11 +167,11 @@ footer i:hover {
 .hero h1 {
   font: 700 36px "Rubik", sans-serif;
   font-size: 48px;
-  margin: 0.5rem 1rem;
+  margin: 1rem 0;
 }
 .hero p {
   font: 400 18px "Rubik", sans-serif;
-  margin: 0.5rem 1rem;
+  margin: 1rem 0;
 }
 
 .work {
@@ -335,6 +335,10 @@ footer i:hover {
   grid-column: 1;
   justify-self: center;
 }
+.about .about-content .email-link {
+  font: 400 18px "Rubik", sans-serif;
+  color: #23A9A9;
+}
 
 @media screen and (max-width: 68.75em) {
   .about .about-content p {
@@ -352,7 +356,7 @@ footer i:hover {
     grid-column: 1;
   }
   .about .about-content p {
-    margin: 0rem 1.5rem;
+    margin: 1rem 1.5rem;
   }
 }
 
