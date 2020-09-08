@@ -1,10 +1,9 @@
+// scss/variables
+@import "variables";
+
 // scss/base
 @import "base/reset";
 @import "base/layout";
-
-
-// scss/variables
-@import "variables";
 
 // scss/components
 @import "components/header";
