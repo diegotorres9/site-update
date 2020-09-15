@@ -292,7 +292,7 @@ footer i:hover {
   .work .work-craft-brewery {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
   .work .work-craft-brewery img {
     align-self: center;
@@ -300,7 +300,7 @@ footer i:hover {
   .work .work-trestle {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
   .work .work-trestle img {
     grid-row: 1;
@@ -310,7 +310,7 @@ footer i:hover {
   .work .work-happy-sunshine {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
   .work .work-happy-sunshine img {
     align-self: center;
@@ -318,7 +318,7 @@ footer i:hover {
   .work .work-altJ {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
   .work .work-altJ img {
     grid-row: 1;
@@ -335,11 +335,13 @@ footer i:hover {
 .about .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .about .about-content p {
   font: 300 16px "Rubik", sans-serif;
   align-self: center;
   line-height: 1.5;
+  margin: 0 1rem;
 }
 .about .about-content img {
   grid-row: 1;
@@ -360,12 +362,11 @@ footer i:hover {
   .about .about-content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr auto;
   }
   .about .about-content img {
     grid-row: 2;
     grid-column: 1;
-    height: 256px;
   }
   .about .about-content p {
     margin: 1rem 1.5rem;
