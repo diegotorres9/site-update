@@ -208,24 +208,24 @@ footer i:hover {
   grid-column: 2;
   margin: 1rem 0;
 }
-.work .work-trestle {
+.work .work-agConstruction {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 2rem 0;
 }
-.work .work-trestle img {
+.work .work-agConstruction img {
   grid-row: 1;
   grid-column: 2;
   justify-self: center;
   max-height: 500px;
   width: 500px;
 }
-.work .work-trestle .trestle-content {
+.work .work-agConstruction .agConstruction-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.work .work-trestle .trestle-content h3, .work .work-trestle .trestle-content p, .work .work-trestle .trestle-content a {
+.work .work-agConstruction .agConstruction-content h3, .work .work-agConstruction .agConstruction-content p, .work .work-agConstruction .agConstruction-content a {
   grid-row: 1;
   grid-column: 1;
   margin: 1rem 0;
@@ -278,7 +278,7 @@ footer i:hover {
   .work .work-craft-brewery .craft-brewery-content h3, .work .work-craft-brewery .craft-brewery-content p, .work .work-craft-brewery .craft-brewery-content a {
     margin: 0.5rem 1.5rem;
   }
-  .work .work-trestle .trestle-content h3, .work .work-trestle .trestle-content p, .work .work-trestle .trestle-content a {
+  .work .work-agConstruction .agConstruction-content h3, .work .work-agConstruction .agConstruction-content p, .work .work-agConstruction .agConstruction-content a {
     margin: 0.5rem 1.5rem;
   }
   .work .work-happy-sunshine .happy-sunshine-content h3, .work .work-happy-sunshine .happy-sunshine-content p, .work .work-happy-sunshine .happy-sunshine-content a {
@@ -297,12 +297,12 @@ footer i:hover {
   .work .work-craft-brewery img {
     align-self: center;
   }
-  .work .work-trestle {
+  .work .work-agConstruction {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
   }
-  .work .work-trestle img {
+  .work .work-agConstruction img {
     grid-row: 1;
     grid-column: 1;
     align-self: center;

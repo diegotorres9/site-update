@@ -33,7 +33,7 @@
             }
         }
     }
-    .work-trestle {
+    .work-agConstruction {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 2rem 0;
@@ -44,7 +44,7 @@
             max-height: 500px;
             width: 500px;
         }
-        .trestle-content {
+        .agConstruction-content {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -109,8 +109,8 @@
                 }
             }
         }
-        .work-trestle {
-            .trestle-content {
+        .work-agConstruction {
+            .agConstruction-content {
                 h3, p, a {
                     margin: 0.5rem 1.5rem;
                 }
@@ -142,7 +142,7 @@
                 align-self: center;
             }
         }
-        .work-trestle {
+        .work-agConstruction {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: auto 1fr;
