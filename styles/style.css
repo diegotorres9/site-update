@@ -287,6 +287,9 @@ footer i:hover {
   }
 }
 @media screen and (max-width: 43.125em) {
+  .work {
+    margin: 2rem 1rem;
+  }
   .work .work-craft-brewery {
     display: grid;
     grid-template-columns: 1fr;
@@ -294,6 +297,9 @@ footer i:hover {
   }
   .work .work-craft-brewery img {
     align-self: center;
+  }
+  .work .work-craft-brewery .craft-brewery-content h3, .work .work-craft-brewery .craft-brewery-content p, .work .work-craft-brewery .craft-brewery-content a {
+    margin: 1rem 0;
   }
   .work .work-agConstruction {
     display: grid;
@@ -305,6 +311,9 @@ footer i:hover {
     grid-column: 1;
     align-self: center;
   }
+  .work .work-agConstruction .agConstruction-content h3, .work .work-agConstruction .agConstruction-content p, .work .work-agConstruction .agConstruction-content a {
+    margin: 1rem 0;
+  }
   .work .work-happy-sunshine {
     display: grid;
     grid-template-columns: 1fr;
@@ -312,6 +321,9 @@ footer i:hover {
   }
   .work .work-happy-sunshine img {
     align-self: center;
+  }
+  .work .work-happy-sunshine .happy-sunshine-content h3, .work .work-happy-sunshine .happy-sunshine-content p, .work .work-happy-sunshine .happy-sunshine-content a {
+    margin: 1rem 0;
   }
   .work .work-altJ {
     display: grid;
@@ -322,6 +334,9 @@ footer i:hover {
     grid-row: 1;
     grid-column: 1;
     align-self: center;
+  }
+  .work .work-altJ .altJ-content h3, .work .work-altJ .altJ-content p, .work .work-altJ .altJ-content a {
+    margin: 1rem 0;
   }
 }
 .about {
@@ -357,6 +372,9 @@ footer i:hover {
   }
 }
 @media screen and (max-width: 43.125em) {
+  .about {
+    margin: 2rem 1rem;
+  }
   .about .about-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -367,7 +385,7 @@ footer i:hover {
     grid-column: 1;
   }
   .about .about-content p {
-    margin: 1rem 1.5rem;
+    margin: 1rem 0;
   }
 }
 
